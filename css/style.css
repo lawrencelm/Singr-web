@@ -784,6 +784,7 @@
 		{
 			color: #aaa;
 			color: rgba(255,255,255,0.65);
+            
 		}
 			
 /*********************************************************************************/
@@ -818,7 +819,8 @@
 	{
 		position: relative;
 		margin: 0;
-		background: url('../images/header.jpg');
+		"background: url('../images/header.jpg');
+        background:linear-gradient(45deg, #e25656, #e23030, #903030);
 		background-size: cover;
 		background-position: center center;
 		padding: 14em 0 14em 0;
